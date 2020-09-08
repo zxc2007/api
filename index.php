@@ -19,7 +19,7 @@ use PHPMailer\PHPMailer\SMTP;
             $mail->Port       = $port;
 
             //Recipients
-            $mail->setFrom($from, 'Horizon Shop');
+            $mail->setFrom($from, 'Api SMTP');
             $mail->addAddress($to);
 
             $mail->isHTML(true);
