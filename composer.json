@@ -1,0 +1,13 @@
+{
+    "name": "api/api",
+    "description": "smtp",
+    "authors": [
+        {
+            "name": "Hen-Dricks",
+            "email": "62672799+Hen-Dricks@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}
